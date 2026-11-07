@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+
+    <h1>Results for {{ result.symbol }}</h1>
+
+
+    <p><strong>Debt-to-Equity:</strong> {{ result.debt_to_equity }}</p>
+
+    <p><strong>Volatility Score:</strong> {{ result.volatility }}/100</p>
+    <p>{{ result.vol_comment }}</p>
+
+    <p><strong>Beta:</strong> {{ result.beta }}</p>
+
+    <p><strong>Liquidity Score:</strong> {{ result.liquidity }}/100</p>
+    <p>{{ result.liq_comment }}</p>
+
+    <br>
+    <a href="/">Analyze another stock</a>
+
+</body>
+</html>
